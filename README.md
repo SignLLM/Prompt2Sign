@@ -159,7 +159,8 @@ All data collection and processing are conducted in accordance with the relevant
 
 Prompt2Sign is made available under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). For commercial use, please contact us directly.
 
-![image](https://github.com/SignLLM/Prompt2Sign/assets/147891572/73fca76f-dfa5-4a51-95e6-b004a40f7333)
+![image](https://github.com/SignLLM/Prompt2Sign/assets/147891572/7bc0cb5c-ef77-4a15-87cb-e78cc01c8f76)
+
 
 
 
