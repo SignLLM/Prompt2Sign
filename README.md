@@ -70,7 +70,7 @@ This unit includes some useful data sets for sign language preprocessing:
 
 **How2Sign for SignDiff<sup>2</sup>**
 
-<br>After preprocessing [How2Sign](https://how2sign.github.io/) dataset, the condensed data set obtained is as follows:
+After preprocessing [How2Sign](https://how2sign.github.io/) dataset, the condensed data set obtained is as follows:
 
 - [https://drive.google.com/file/d/1DHmePcRpc5TJ1XkjOfA8VYKKLGCL8nlJ/view?usp=sharing](https://drive.google.com/file/d/1DHmePcRpc5TJ1XkjOfA8VYKKLGCL8nlJ/view?usp=sharing)
 
