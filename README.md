@@ -89,9 +89,9 @@ It can be used for the diffusion model training of pose2video in sign language. 
 
 Our pre-processing tools: the data Cleansing tool and the three-step 2Dto3D tool.
 
-- [https://github.com/SignLLM/Prompt2Sign/Clean](https://github.com/SignLLM/Prompt2Sign/tree/main/Clean)
+- [https://github.com/SignLLM/Tools/Clean](https://github.com/SignLLM/Prompt2Sign/Tools/Clean)
 
-- [https://github.com/SignLLM/Prompt2Sign/2Dto3D](https://github.com/SignLLM/Prompt2Sign/tree/main/2Dto3D)
+- [https://github.com/SignLLM/Tools/2Dto3D](https://github.com/SignLLM/Prompt2Sign/Tools/2Dto3D)
 
 ## Tool Usage
 <!-- This section could provide foundational knowledge or context for the rest of the content -->
@@ -149,7 +149,7 @@ year={2023}
 <!-- Insert contact details or a form link here -->
 Join the conversation and contribute to the pioneering work we are doing at Prompt2Sign!
 
-For questions/suggestions of data/code issues, please raise on issue on the [Code repo](https://github.com/SignLLM/Code) or [Tool repo](https://github.com/SignLLM/Prompt2Sign). For direct contact, press inquiries or any concerns: [Email Us](mailto:signllm@googlegroups.com).
+For questions/suggestions of data/code issues, please raise on issue on the [Code repo](https://github.com/SignLLM/Code) or [Tool repo](https://github.com/SignLLM/Tools). For direct contact, press inquiries or any concerns: [Email Us](mailto:signllm@googlegroups.com).
 
 ## Acknowledgements
 
