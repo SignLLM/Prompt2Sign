@@ -56,7 +56,7 @@ V2 News: Added the [OpenASL](https://github.com/chevalierNoir/OpenASL) dataset, 
 
 It can be used in the training of ASL production models. 
 
-**Prompt2Sign <b>GSL</b> part for GSLP**
+**Prompt2Sign GSL part for GSLP**
 
 After preprocessing [Phoenix-14T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) dataset, the condensed data set obtained is as follows:
 
@@ -95,29 +95,7 @@ Our pre-processing tools: the data Cleansing tool and the three-step 2Dto3D tool
 ## Tool Usage
 <!-- This section could provide foundational knowledge or context for the rest of the content -->
 
-Understanding the realm of sign language through computational models offers an invaluable opportunity to bridge communication gaps and build inclusive technologies. Here’s a foundational backdrop to the efforts of Prompt2Sign and the landscape of sign language processing.
-
-**Sign Language: A Visual-Gestural Language**
-
-Sign languages are fully-fledged natural languages with their own syntax, semantics, and pragmatics, distinct from spoken languages. They are primarily used by Deaf and hard-of-hearing communities. Each sign language, such as American Sign Language (ASL), British Sign Language (BSL), or others, is a complex visual-gestural language that employs hand shapes, facial expressions, gestures, and body movements to convey meaning.
-
-**Computational Sign Language Processing**
-
-The field of computational sign language processing aims to develop algorithms and systems that can automatically recognize, interpret, and generate sign language. The challenges in this domain are unique due to the three-dimensional and dynamic nature of sign language, and the intricate use of simultaneous features like handshapes and facial expressions.
-
-**Large Language Models and Sign Language**
-
-Recent advances in artificial intelligence, particularly in large language models (LLMs), have opened new frontiers for sign language processing. These models have the potential to learn the nuances of sign languages from extensive datasets, enabling the development of more accurate and naturalistic sign language recognition and generation systems.
-
-**Prompt2Sign’s Vision**
-
-Prompt2Sign is dedicated to leveraging these advances to create tools and datasets that push the boundaries of sign language technology. With our focus on the diffusion models for sign language production, we envision a future where technology can translate, interpret, and generate sign language in real-time, making digital content accessible to all, regardless of hearing ability.
-
-**SignLLM and SignDiff: At the Forefront**
-
-Our datasets, such as those used in SignLLM and SignDiff, have been carefully preprocessed to train models capable of understanding and producing sign language. They offer a rich, multidimensional perspective on sign language structure and use, enabling research that could lead to groundbreaking applications in real-world scenarios.
-
-With this foundation of understanding, we invite you to explore the datasets and tools we have developed to contribute to this vibrant and transformative field of research.
+Coming Soon, you can take a look at our [project homepage](https://signllm.github.io/), which is actually quite detailed.
 
 ## FAQ
 <!-- List out FAQs here -->
