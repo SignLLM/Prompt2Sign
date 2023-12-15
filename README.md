@@ -96,7 +96,6 @@ Our pre-processing tools: the data Cleansing tool and the three-step 2Dto3D tool
 ## Tool Usage
 <!-- This section could provide foundational knowledge or context for the rest of the content -->
 
-
 Understanding the realm of sign language through computational models offers an invaluable opportunity to bridge communication gaps and build inclusive technologies. Here’s a foundational backdrop to the efforts of Prompt2Sign and the landscape of sign language processing.
 
 **Sign Language: A Visual-Gestural Language**
@@ -127,7 +126,7 @@ With this foundation of understanding, we invite you to explore the datasets and
 
 Two answers: Yes & coming soon. For each of the benchmarks, there is a dataloader available that was used to generate the benchmark results and that should cover most purposes. There's also a set of common dataloaders coming, which will be available sometime in next year.
 
-## How To Cite？
+## How To Cite
 
 Please cite the following paper when using Prompt2Sign in your research:
 
