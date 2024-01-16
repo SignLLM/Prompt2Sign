@@ -1,0 +1,26 @@
+site_name: Prompt2Sign
+theme:
+  name: material
+
+nav:
+    - Home: index.md
+    - Quick Start: quickStart.md
+    - Download Data:
+        - Quick Start: downloadData.md
+        - ASL Part: ASL.md
+        - GSL Part: GSL.md
+        - DSGS Part: DSGS.md
+        - LSF-CH Part: LSF-CH.md
+        - LIS-CH Part: LIS-CH.md
+    - Tool for Data:
+        - Quick Start: toolforData.md
+        - Clean Tool: cleanTool.md
+        - 2D to 3D: 2Dto3D.md
+    - Tool Usage: toolUsage.md
+    - FAQ: FAQ.md
+    - How To Cite: howtoCite.md
+    - Contact Us: contactUs.md
+    - Acknowledgements: acknowledgements.md
+
+extra_css:
+  - stylesheets/extra.css

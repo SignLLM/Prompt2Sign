@@ -1,21 +1,3 @@
-<!--
-
-@import "{{ site.theme }}";
-@import "/assets/css/mystyle.css";
-
-<link rel="stylesheet" href="/assets/css/mystyle.css">
--->
-<style type="text/css">
-	body {
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-		font-weight:300;
-		font-size:16px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 800px;
-	}
-</style>
-
 # Prompt2Sign
 
 Welcome to Prompt2Sign!
