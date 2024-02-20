@@ -1,4 +1,4 @@
-All data collection and processing are conducted in accordance with the relevant certificates/protocols of the used dataset, or are sourced or will be collected online.
+All data collection and processing are conducted in accordance with the relevant certificates/protocols of the used dataset. For data sets that are public but require a license, we provide processing tools with the permission of the relevant certificate.
 
 **Licensing**
 

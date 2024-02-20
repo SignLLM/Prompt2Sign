@@ -12,6 +12,9 @@ nav:
         - DSGS Part: DSGS.md
         - LSF-CH Part: LSF-CH.md
         - LIS-CH Part: LIS-CH.md
+        - LSA Part: LSA.md
+        - KSL Part: KSL.md
+        - TSL Part: TSL.md
     - Tool for Data:
         - Quick Start: toolforData.md
         - Clean Tool: cleanTool.md

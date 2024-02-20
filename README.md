@@ -1,89 +1,26 @@
 # Prompt2Sign
 
 Welcome to Prompt2Sign!
-This section stores the preprocessed data for the paper:
+This repository stores the preprocessed data for the paper:
 <br>[SignLLM: Sign Languages Production Large Language Models.]()
 
-## Quick Start
+## Dataset Introduction
 
-**Download the CLI**  
-Install the Prompt2Sign CLI using pip (ensure you have it in your Python environment):
+**Prompt2Sign** is first multilingual sign language dataset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
+The details of the dataset are available at https://signllm.github.io/Prompt2Sign/.
 
-```python
-pip install prompt2sign-cli
-```
+Current languages include: American Sign Language (ASL), German Sign Language (GSL, Alias DGS), Swiss German Sign Language (DSGS), French Sign Language of Switzerland (LSF-CH), Italian Sign Language of Switzerland (LIS-CH), Argentine Sign Language (Lengua de Señas Argentina, LSA), Korean Sign Language (KSL), and Turkish Sign Language (TSL).
 
-Alternatively, follow the repository's guide to download the necessary tools and utilities: [Prompt2Sign CLI Tools](https://github.com/Prompt2Sign/cli-tools-link)
-
-**Choose Your Subset**  
-Whether you are interested in for ASL part or GSL part, our CLI makes it easy to specify and download just what you need without having to obtain the entirety of the large datasets.
-
-```bash
-prompt2sign --output_directory="~/prompt2sign_data" --datasets ASL_part GSL_part
-```
-
-Note: Download failed, please use the following Google hard drive/other network drive.
-
-## Download Data
-
-**Prompt2Sign ASL part for ASLP**
-
-V1 News: After preprocessing [How2Sign](https://how2sign.github.io/) dataset, the condensed data set obtained is as follows:
-
-- [https://drive.google.com/file/d/185RwUfBTJuUEibvAoABPe_aq39hsRjF-/view?usp=sharing](https://drive.google.com/file/d/185RwUfBTJuUEibvAoABPe_aq39hsRjF-/view?usp=sharing)
-
-V2 News: Added the [OpenASL](https://github.com/chevalierNoir/OpenASL) dataset, the condensed data set obtained is as follows:
-
-- [Coming soon]()
-
-It can be used in the training of ASL production models. 
-
-**Prompt2Sign GSL part for GSLP**
-
-After preprocessing [Phoenix-14T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) dataset, the condensed data set obtained is as follows:
-
-- [https://drive.google.com/file/d/17qiIoJG7KyhfhDz9rOlYF4vDkcr2jmBd/view?usp=sharing](https://drive.google.com/file/d/17qiIoJG7KyhfhDz9rOlYF4vDkcr2jmBd/view?usp=sharing)
-
-It can be used in the training of GSL production models.
-
-## More Processed-Data
-
-This unit includes some useful data sets for sign language preprocessing:
-
-**How2Sign for SignDiff<sup>2</sup>**
-
-After preprocessing [How2Sign](https://how2sign.github.io/) dataset, the condensed data set obtained is as follows:
-
-- [https://drive.google.com/file/d/1DHmePcRpc5TJ1XkjOfA8VYKKLGCL8nlJ/view?usp=sharing](https://drive.google.com/file/d/1DHmePcRpc5TJ1XkjOfA8VYKKLGCL8nlJ/view?usp=sharing)
-
-It can be used for the diffusion model training of pose2video in sign language. (Based on [ControlNet](https://github.com/lllyasviel/ControlNet/blob/main/docs/train.md))
-
-**How2Sign for Vid2Vid**
-
-After preprocessing [How2Sign](https://how2sign.github.io/) dataset, the condensed data set obtained is as follows:
-
-- [https://aistudio.baidu.com/datasetdetail/220064](https://aistudio.baidu.com/datasetdetail/220064)
-
-It can be used for the diffusion model training of pose2video in sign language. (Based on [Vid2Vid](https://github.com/NVIDIA/vid2vid))
-
-## Tool for Data
-
-Our pre-processing tools: the data Cleansing tool and the three-step 2Dto3D tool.
-
-- [https://github.com/SignLLM/Tools/Clean](https://github.com/SignLLM/Prompt2Sign/Clean)
-
-- [https://github.com/SignLLM/Tools/2Dto3D](https://github.com/SignLLM/Prompt2Sign/2Dto3D)
-
-## Tool Usage
-<!-- This section could provide foundational knowledge or context for the rest of the content -->
-
-Coming Soon, you can take a look at our [project homepage](https://signllm.github.io/), which is actually quite detailed.
-
-## FAQ
-<!-- List out FAQs here -->
-**Are there dataloaders available for the dataset.**
-
-Two answers: Yes & coming soon. For each of the benchmarks, there is a dataloader available that was used to generate the benchmark results and that should cover most purposes. There's also a set of common dataloaders coming, which will be available sometime in next year.
+| Name | Language | Vocab. | Duration (h) | Signers | Multiview | Transcription | Gloss | Pose | Depth | Speech | Prompt | Compress |
+|------|----------|--------|--------------|----------|-----------|----------------|-------|------|-------|--------|--------|----------|
+| Video-Based CSL | CSL | 178 | 100 | 50 | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: |
+| SIGNUM | GSL | 450 | 55 | 25 | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| RWTH-Phoenix-2014T | GSL | 3k | 11 | 9 | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| Public DGS Corpus | GSL | -- | 50 | 327 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: |
+| BSL Corpus | BSL | 5k | -- | 249 | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| NCSLGR | ASL | 1.8k | 5.3 | 4 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| How2Sign | ASL | 16k | 79 | 11 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: |
+| **Prompt2Sign (ours)** | Multilingual | 40k | 200 | 40 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ## How To Cite
 
@@ -98,25 +35,13 @@ year={2023}
 }
 ```
 
-**Related Work**
-
-<sup>1</sup>[SignLLM: Sign Languages Production Large Language Models.]()
-
-<sup>2</sup>[SignDiff: Learning Diffusion Models for American Sign Language Production.](https://arxiv.org/abs/2308.16082)
-
-## Contact Us
-<!-- Insert contact details or a form link here -->
-Join the conversation and contribute to the pioneering work we are doing at Prompt2Sign!
-
-For questions/suggestions of data/code issues, please raise on issue on the [Code repo](https://github.com/SignLLM/Code) or [Tool repo](https://github.com/SignLLM/Prompt2Sign). For direct contact, press inquiries or any concerns: [Email Us](mailto:signllm@googlegroups.com).
-
 ## Acknowledgements
 
-All data collection and processing are conducted in accordance with the relevant certificates/protocols of the used dataset, or are sourced or will be collected online.
+All data collection and processing are conducted in accordance with the relevant certificates/protocols of the used dataset. For data sets that are public but require a license, we provide processing tools with the permission of the relevant certificate.
 
 **Licensing**
 
-Prompt2Sign is made available under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). For commercial use, please contact us directly.
+Prompt2Sign is made available under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). For commercial use, please [contact us](mailto:signllm@googlegroups.com) directly.
 
 ![image](https://github.com/SignLLM/Prompt2Sign/assets/147891572/7bc0cb5c-ef77-4a15-87cb-e78cc01c8f76)
 
