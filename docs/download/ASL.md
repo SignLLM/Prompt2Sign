@@ -1,4 +1,4 @@
-## Prompt2Sign ASL part
+## Download link
 
 V1 News: After preprocessing [How2Sign](https://how2sign.github.io/) dataset, the condensed data set obtained is as follows:
 
