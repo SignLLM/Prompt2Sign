@@ -15,12 +15,11 @@ nav:
         - LSA Part: download/LSA.md
         - KSL Part: download/KSL.md
         - TSL Part: download/TSL.md
-    - Tool for Data:
+    - Tool Usage:
         - All links: tool4data/tools_list.md
         - Clean Tool: tool4data/cleanTool.md
         - 2D to 3D: tool4data/2Dto3D.md
         - Prompt Tool: tool4data/promptTool.md
-    - Tool Usage: toolUsage.md
     - FAQ: FAQ.md
     - How To Cite: howtoCite.md
     - Contact Us: contactUs.md
