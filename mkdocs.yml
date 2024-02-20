@@ -6,19 +6,20 @@ nav:
     - Home: index.md
     - Quick Start: quickStart.md
     - Download Data:
-        - Quick Start: downloadData.md
-        - ASL Part: ASL.md
-        - GSL Part: GSL.md
-        - DSGS Part: DSGS.md
-        - LSF-CH Part: LSF-CH.md
-        - LIS-CH Part: LIS-CH.md
-        - LSA Part: LSA.md
-        - KSL Part: KSL.md
-        - TSL Part: TSL.md
+        - Quick Start: download/downloadData.md
+        - ASL Part: download/ASL.md
+        - GSL Part: download/GSL.md
+        - DSGS Part: download/DSGS.md
+        - LSF-CH Part: download/LSF-CH.md
+        - LIS-CH Part: download/LIS-CH.md
+        - LSA Part: download/LSA.md
+        - KSL Part: download/KSL.md
+        - TSL Part: download/TSL.md
     - Tool for Data:
-        - Quick Start: toolforData.md
-        - Clean Tool: cleanTool.md
-        - 2D to 3D: 2Dto3D.md
+        - Quick Start: tool4data/tools_list.md
+        - Clean Tool: tool4data/cleanTool.md
+        - 2D to 3D: tool4data/2Dto3D.md
+        - Prompt Tool: tool4data/promptTool.md
     - Tool Usage: toolUsage.md
     - FAQ: FAQ.md
     - How To Cite: howtoCite.md
