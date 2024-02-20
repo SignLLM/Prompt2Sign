@@ -6,7 +6,7 @@ nav:
     - Home: index.md
     - Quick Start: quickStart.md
     - Download Data:
-        - Quick Start: download/downloadData.md
+        - All links: download/downloadData.md
         - ASL Part: download/ASL.md
         - GSL Part: download/GSL.md
         - DSGS Part: download/DSGS.md
@@ -16,7 +16,7 @@ nav:
         - KSL Part: download/KSL.md
         - TSL Part: download/TSL.md
     - Tool for Data:
-        - Quick Start: tool4data/tools_list.md
+        - All links: tool4data/tools_list.md
         - Clean Tool: tool4data/cleanTool.md
         - 2D to 3D: tool4data/2Dto3D.md
         - Prompt Tool: tool4data/promptTool.md
