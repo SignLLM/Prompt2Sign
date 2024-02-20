@@ -39,6 +39,7 @@ booktitle={xxxx},
 year={2023}
 }
 ```
+<!-- 
 
 ## Acknowledgements
 
@@ -51,17 +52,6 @@ Prompt2Sign is made available under the [Creative Commons Attribution-NonCommerc
 ![image](https://github.com/SignLLM/Prompt2Sign/assets/147891572/7bc0cb5c-ef77-4a15-87cb-e78cc01c8f76)
 
 
-
-
-
-
-
-
-
-
-
-
-<!-- 
 
 We extend our gratitude to the National Sign Language Linguistics Society and XYZ University's Computational Linguistics Department for their support.
 Contributions are welcome! Please read our [contribution guidelines](#) to get started.
