@@ -1,16 +1,27 @@
 Please cite the following paper when using Prompt2Sign in your research:
 
 ```
-@inproceedings{prompt2sign2023,
-title={Prompt2Sign: A Multilingual Dataset for Sign Language Production},
-author={XXXX},
-booktitle={xxxx},
-year={2023}
+@misc{fang2024signllm,
+      title={SignLLM: Sign Languages Production Large Language Models}, 
+      author={Sen Fang and Lei Wang and Ce Zheng and Yapeng Tian and Chen Chen},
+      year={2024},
+      eprint={2405.10718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{fang2023signdiff,
+      title={SignDiff: Learning Diffusion Models for American Sign Language Production}, 
+      author={Sen Fang and Chunyu Sui and Xuedong Zhang and Yapeng Tian},
+      year={2023},
+      eprint={2308.16082},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
 **Related Work**
 
-<sup>1</sup>[SignLLM: Sign Languages Production Large Language Models.]()
+<sup>1</sup>[SignLLM: Sign Languages Production Large Language Models.](https://arxiv.org/abs/2405.10718)
 
 <sup>2</sup>[SignDiff: Learning Diffusion Models for American Sign Language Production.](https://arxiv.org/abs/2308.16082)
