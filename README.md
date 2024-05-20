@@ -2,7 +2,7 @@
 
 Welcome to Prompt2Sign!
 This repository stores the preprocessed data for the paper:
-<br>[SignLLM: Sign Languages Production Large Language Models.]()
+<br>[SignLLM: Sign Languages Production Large Language Models.](https://arxiv.org/abs/2405.10718)
 
 ## Dataset Introduction
 
