@@ -29,6 +29,9 @@ Current languages include: American Sign Language (ASL), German Sign Language (G
  
 </details>
 
+[![Star History Chart](https://api.star-history.com/svg?repos=SignLLM/Prompt2Sign&type=Date)](https://star-history.com/#SignLLM/Prompt2Sign&Date)
+
+
 ## How To Cite
 
 Please cite the following paper when using Prompt2Sign in your research:
