@@ -4,6 +4,8 @@ Welcome to Prompt2Sign!
 This repository stores the preprocessed data for the paper:
 <br>[SignLLM: Sign Languages Production Large Language Models.](https://arxiv.org/abs/2405.10718)
 
+Note: The release of our data is tentatively expected at the end of 2024, so don't rush.
+
 ## Dataset Introduction
 
 **Prompt2Sign** is first comprehensive multilingual sign language dataset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
@@ -32,11 +34,22 @@ Current languages include: American Sign Language (ASL), German Sign Language (G
 Please cite the following paper when using Prompt2Sign in your research:
 
 ```
-@inproceedings{prompt2sign2023,
-title={Prompt2Sign: A Multilingual Dataset for Sign Language Production},
-author={XXXX},
-booktitle={xxxx},
-year={2023}
+@misc{fang2024signllm,
+      title={SignLLM: Sign Languages Production Large Language Models}, 
+      author={Sen Fang and Lei Wang and Ce Zheng and Yapeng Tian and Chen Chen},
+      year={2024},
+      eprint={2405.10718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{fang2023signdiff,
+      title={SignDiff: Learning Diffusion Models for American Sign Language Production}, 
+      author={Sen Fang and Chunyu Sui and Xuedong Zhang and Yapeng Tian},
+      year={2023},
+      eprint={2308.16082},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 <!-- 
