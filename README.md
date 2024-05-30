@@ -30,6 +30,7 @@ Current languages include: American Sign Language (ASL), German Sign Language (G
 </details>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=SignLLM/Prompt2Sign&type=Date)](https://star-history.com/#SignLLM/Prompt2Sign&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=SignLLM&type=Date)](https://star-history.com/#SignLLM&Date)
 
 
 ## How To Cite
