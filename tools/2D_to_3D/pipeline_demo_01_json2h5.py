@@ -2,6 +2,7 @@
 #  Format: x, y, likelihood, x, y, likelihood, ....
 #  x == 0, y == 0 means missing keypoint 
 
+import argparse
 import codecs
 import math
 import re
@@ -71,11 +72,16 @@ def loadData(dname):
 
 if __name__ == "__main__":
 
-  dnameIn = "S:/how2sign-pre/how2sign原数据/val_2D_keypoints正面开发集/json"
-  # dnameIn = "S:/how2sign-pre/how2sign原数据/val_2D_keypoints正面开发集/json"
-  # dnameIn = "S:/how2sign-pre/how2sign原数据/val_2D_keypoints正面训练集/json"
-  # fnameOut = "data/demo/keypoints/keypoints-01-raw.h5"
-  fnameOut = "S:/how2sign-pre/2Dto3D/input_data/dev.h5"
+  parser = argparse.ArgumentParser()
+  parser.add_argument('--data_subset', type=str, default="dev", help='the subset type of the dataset')
+  args = parser.parse_args()
+
+  # If you don't want to pass in a parameter, you can also set the subset type of the dataset you use directly here
+  #mode = "dev" or "train" or "test"
+
+  mode = args.data_subset
+  dnameIn = f"S:/how2sign-pre/val_2D_keypoints_{mode}/json"
+  fnameOut = f"input_data/{mode}.h5"
   
   
   recs = {}

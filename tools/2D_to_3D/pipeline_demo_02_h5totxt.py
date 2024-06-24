@@ -1,4 +1,5 @@
 # standard
+import argparse
 import h5py
 import os
 # 3rd party
@@ -102,8 +103,15 @@ def getTXT(key, fnameIn, i, mode):
 
 
 if __name__ == "__main__":
-  
-  mode = "train"
+
+  parser = argparse.ArgumentParser()
+  parser.add_argument('--data_subset', type=str, default="dev", help='the subset type of the dataset')
+  args = parser.parse_args()
+
+  # If you don't want to pass in a parameter, you can also set the subset type of the dataset you use directly here
+  #mode = "dev" or "train" or "test"
+
+  mode = args.data_subset
   
   
   multiprocessing.freeze_support()

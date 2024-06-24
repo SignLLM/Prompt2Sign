@@ -1,3 +1,4 @@
+import argparse
 import os
 from ast import Delete
 from dataclasses import replace
@@ -7,7 +8,14 @@ import shutil
 import time
 import math
 
-mode = "dev"
+parser = argparse.ArgumentParser()
+parser.add_argument('--data_subset', type=str, default="dev", help='the subset type of the dataset')
+args = parser.parse_args()
+
+# If you don't want to pass in a parameter, you can also set the subset type of the dataset you use directly here
+#mode = "dev" or "train" or "test"
+
+mode = args.data_subset
 
 # Read the dev.files file for a list of folder names
 with open(f"input_data/{mode}.files", "r") as file:
