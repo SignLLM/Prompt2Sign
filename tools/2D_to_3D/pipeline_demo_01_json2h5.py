@@ -80,7 +80,7 @@ if __name__ == "__main__":
   #mode = "dev" or "train" or "test"
 
   mode = args.data_subset
-  dnameIn = f"S:/how2sign-pre/val_2D_keypoints_{mode}/json"
+  dnameIn = f"output_of_openpose/{mode}/json"
   fnameOut = f"input_data/{mode}.h5"
   
   
