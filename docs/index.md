@@ -15,6 +15,9 @@ This repository stores the preprocessed data for the paper:
 [2023.12.14] We have made supplementary materials and demo available at this page.<br>
 [2023.11.04] We have made Prompt2Sign and Tools available at GitHub. Check out <a href='https://github.com/SignLLM/Prompt2Sign'>here</a>.<br>
 
+
+## Introduction
+
 **Prompt2Sign** is first multilingual sign language dataset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
 The details of the dataset are available at https://signllm.github.io/Prompt2Sign/.
 
