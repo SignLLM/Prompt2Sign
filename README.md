@@ -1,12 +1,20 @@
 # Prompt2Sign
 
-[Jupyter Notebook] [AutoDL Docker]
+Tools for Data: [Jupyter Notebook] [AutoDL Docker]
 
 Welcome to Prompt2Sign!
 This repository stores the preprocessed data for the paper:
 <br>[SignLLM: Sign Languages Production Large Language Models.](https://arxiv.org/abs/2405.10718)
 
 **Note: The release of our data is tentatively expected at the end of 2024, so don't rush.**
+
+## News
+
+[2024.06.30] The <a href='https://github.com/SignLLM/Prompt2Sign/blob/main/tools/2D_to_3D/run.ipynb'>Jupyer Notebook</a> for data processing has been released.<br>
+[2024.05.17] The <a href='https://arxiv.org/abs/2405.10718'>arXiv version</a> of the paper is now available.<br>
+[2024.01.16] Prompt2Sign homepage is available and data is expected to be released after accept (maybe at the end of 2024, so don't rush).<br>
+[2023.12.14] We have made supplementary materials and demo available at this page.<br>
+[2023.11.04] We have made Prompt2Sign and Tools available at GitHub. Check out <a href='https://github.com/SignLLM/Prompt2Sign'>here</a>.<br>
 
 ## Dataset Introduction
 

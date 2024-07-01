@@ -3,7 +3,7 @@ theme:
   name: material
 
 nav:
-    - Home: index.md
+    - Home: README.md
     - Quick Start: quickStart.md
     - Download Data:
         - All links: download/downloadData.md
