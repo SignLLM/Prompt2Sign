@@ -14,15 +14,15 @@ This repository stores the preprocessed data for the paper:
 [2023.12.14] We have made supplementary materials and demo available at this page.<br>
 [2023.11.04] We have made Prompt2Sign and Tools available at GitHub. Check out <a href='https://github.com/SignLLM/Prompt2Sign'>here</a>.<br>
 
-## Superset Introduction
+## Dataset Introduction
 
-**Prompt2Sign** is first comprehensive multilingual sign language superset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
+**Prompt2Sign** is first comprehensive multilingual sign language dataset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
 The details of the  are available at https://signllm.github.io/Prompt2Sign/.
 
 Current languages include: American Sign Language (ASL), German Sign Language (GSL, Alias DGS), Swiss German Sign Language (DSGS), French Sign Language of Switzerland (LSF-CH), Italian Sign Language of Switzerland (LIS-CH), Argentine Sign Language (Lengua de Señas Argentina, LSA), Korean Sign Language (KSL), and Turkish Sign Language (TSL).
 
 <details>
-<summary><b>Superset Summary</b></summary>
+<summary><b>Dataset Summary</b></summary>
 
 | Name | Language | Vocab. | Duration (h) | Signers | Multiview | Transcription | Gloss | Pose | Depth | Speech | Prompt | Compress |
 |------|----------|--------|--------------|----------|-----------|----------------|-------|------|-------|--------|--------|----------|
@@ -68,7 +68,7 @@ Please cite the following paper when using Prompt2Sign in your research:
 
 ## Acknowledgements
 
-All data collection and processing are conducted in accordance with the relevant certificates/protocols of the used superset. For data sets that are public but require a license, we provide processing tools with the permission of the relevant certificate.
+All data collection and processing are conducted in accordance with the relevant certificates/protocols of the used dataset. For data sets that are public but require a license, we provide processing tools with the permission of the relevant certificate.
 
 **Licensing**
 
@@ -86,21 +86,21 @@ Contributions are welcome! Please read our [contribution guidelines](#) to get s
 
 
 
-Embark on your journey with the Prompt2Sign superset and tools designed for advancing research in sign language production using large language models.
+Embark on your journey with the Prompt2Sign dataset and tools designed for advancing research in sign language production using large language models.
 
 Follow this guide to get started with our resources:
 
-1. **Familiarize with the Superset and Tools**  
+1. **Familiarize with the Dataset and Tools**  
    Before diving in, take a moment to understand the offerings of Prompt2Sign. Review our resources, toolkits, and data sets tailored for Sign Language Production research.
 
 2. **Accept the Usage Agreement**  
-   To access the preprocessed superset on this page, please accept our terms of use. It is at the end of this article.
+   To access the preprocessed dataset on this page, please accept our terms of use. It is at the end of this article.
 
 3. **Download and Set Up the CLI**  
-   Get our Command Line Interface (CLI) tool to interact with the superset conveniently. This tool is integral for downloading and manipulating the data.
+   Get our Command Line Interface (CLI) tool to interact with the dataset conveniently. This tool is integral for downloading and manipulating the data.
 
 4. **Select Your Data Subset of Interest**  
-   Choose the specific superset or preprocessed subset you need for your research from our repository, whether it’s for diffusion model training or another aspect of sign language production.
+   Choose the specific dataset or preprocessed subset you need for your research from our repository, whether it’s for diffusion model training or another aspect of sign language production.
 
 5. **Obtain the Data**  
    Once you have your credentials and have selected your subset, use the CLI to download the data. The language parts, especially those preprocessed, are extensive and tailored for deep learning applications.
