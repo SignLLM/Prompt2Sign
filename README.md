@@ -8,7 +8,7 @@ This repository stores the preprocessed data for the paper:
 
 ## News
 
-[2024.06.30] The <a href='https://github.com/SignLLM/Prompt2Sign/blob/main/tools/2D_to_3D/run.ipynb'>Jupyer Notebook</a> for data processing has been released.<br>
+[2024.06.30] The <a href='https://github.com/SignLLM/Prompt2Sign/blob/main/tools/2D_to_3D/run.ipynb'>Jupyer Notebook</a> and <a href='https://www.codewithgpu.com/i/SignLLM/Prompt2Sign/Prompt2Sign'>Docker</a> for data processing has been released.<br>
 [2024.05.17] The <a href='https://arxiv.org/abs/2405.10718'>arXiv version</a> of the paper is now available.<br>
 [2024.01.16] Prompt2Sign homepage is available and data is expected to be released after accept (maybe at the end of 2024, so don't rush).<br>
 [2023.12.14] We have made supplementary materials and demo available at this page.<br>
@@ -17,7 +17,7 @@ This repository stores the preprocessed data for the paper:
 ## Dataset Introduction
 
 **Prompt2Sign** is first comprehensive multilingual sign language dataset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
-The details of the dataset are available at https://signllm.github.io/Prompt2Sign/.
+The details of the  are available at https://signllm.github.io/Prompt2Sign/.
 
 Current languages include: American Sign Language (ASL), German Sign Language (GSL, Alias DGS), Swiss German Sign Language (DSGS), French Sign Language of Switzerland (LSF-CH), Italian Sign Language of Switzerland (LIS-CH), Argentine Sign Language (Lengua de Señas Argentina, LSA), Korean Sign Language (KSL), and Turkish Sign Language (TSL).
 
@@ -54,13 +54,14 @@ Please cite the following paper when using Prompt2Sign in your research:
       primaryClass={cs.CV}
 }
 
-@misc{fang2023signdiff,
-      title={SignDiff: Learning Diffusion Models for American Sign Language Production}, 
-      author={Sen Fang and Chunyu Sui and Xuedong Zhang and Yapeng Tian},
-      year={2023},
+@misc{fang2024signdiffdiffusionmodelsamerican,
+      title={SignDiff: Diffusion Models for American Sign Language Production}, 
+      author={Sen Fang and Chunyu Sui and Yanghao Zhou and Xuedong Zhang and Hongbin Zhong and Minyu Zhao and Yapeng Tian and Chen Chen},
+      year={2024},
       eprint={2308.16082},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2308.16082}, 
 }
 ```
 <!-- 
@@ -85,7 +86,7 @@ Contributions are welcome! Please read our [contribution guidelines](#) to get s
 
 
 
-Embark on your journey with the Prompt2Sign datasets and tools designed for advancing research in sign language production using large language models.
+Embark on your journey with the Prompt2Sign dataset and tools designed for advancing research in sign language production using large language models.
 
 Follow this guide to get started with our resources:
 
@@ -93,16 +94,16 @@ Follow this guide to get started with our resources:
    Before diving in, take a moment to understand the offerings of Prompt2Sign. Review our resources, toolkits, and data sets tailored for Sign Language Production research.
 
 2. **Accept the Usage Agreement**  
-   To access the preprocessed datasets on this page, please accept our terms of use. It is at the end of this article.
+   To access the preprocessed dataset on this page, please accept our terms of use. It is at the end of this article.
 
 3. **Download and Set Up the CLI**  
-   Get our Command Line Interface (CLI) tool to interact with the datasets conveniently. This tool is integral for downloading and manipulating the data.
+   Get our Command Line Interface (CLI) tool to interact with the dataset conveniently. This tool is integral for downloading and manipulating the data.
 
 4. **Select Your Data Subset of Interest**  
    Choose the specific dataset or preprocessed subset you need for your research from our repository, whether it’s for diffusion model training or another aspect of sign language production.
 
 5. **Obtain the Data**  
-   Once you have your credentials and have selected your subset, use the CLI to download the data. The datasets, especially those preprocessed, are extensive and tailored for deep learning applications.
+   Once you have your credentials and have selected your subset, use the CLI to download the data. The language parts, especially those preprocessed, are extensive and tailored for deep learning applications.
 
 **Data and Usage Agreement**  
 Begin by reviewing our terms at [Prompt2Sign Data Agreement](). Once accepted, you will receive an email with the necessary access credentials within 48 hours. Please note that these credentials are expected to be used for local data download and not for continuous data streaming.
