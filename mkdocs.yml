@@ -3,10 +3,9 @@ theme:
   name: material
 
 nav:
-    - Home: README.md
-    - Quick Start: quickStart.md
+    - Home: index.md
+    - Quick Start: downloadData.md
     - Download Data:
-        - All links: download/downloadData.md
         - ASL Part: download/ASL.md
         - GSL Part: download/GSL.md
         - DSGS Part: download/DSGS.md
