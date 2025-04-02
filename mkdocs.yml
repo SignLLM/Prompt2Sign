@@ -4,7 +4,7 @@ theme:
 
 nav:
     - Home: index.md
-    - Quick Start: downloadData.md
+#    - Quick Start: downloadData.md
     - Download Data:
         - ASL Part: download/ASL.md
         - GSL Part: download/GSL.md
