@@ -10,13 +10,14 @@ Please cite the following paper when using Prompt2Sign in your research:
       primaryClass={cs.CV}
 }
 
-@misc{fang2023signdiff,
-      title={SignDiff: Learning Diffusion Models for American Sign Language Production}, 
-      author={Sen Fang and Chunyu Sui and Xuedong Zhang and Yapeng Tian},
-      year={2023},
+@misc{fang2025signdiffdiffusionmodelamerican,
+      title={SignDiff: Diffusion Model for American Sign Language Production}, 
+      author={Sen Fang and Chunyu Sui and Yanghao Zhou and Xuedong Zhang and Hongbin Zhong and Yapeng Tian and Chen Chen},
+      year={2025},
       eprint={2308.16082},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2308.16082}, 
 }
 ```
 
