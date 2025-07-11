@@ -4,10 +4,10 @@ Welcome to Prompt2Sign!
 This repository stores the preprocessed data for the paper:
 <br>[SignLLM: Sign Languages Production Large Language Models.](https://arxiv.org/abs/2405.10718)
 
-**Note: The release of our data is tentatively expected at the end of 2024, so don't rush.**
+**Note: Please prioritize using the DWPose extraction and preprocessing data on the homepage, as this is compatible with almost all Pose2Vid models currently available. I believe this will contribute to the development of the field.**
 
 ## News
-
+[2025.07.10] Our paper has been accepted by the ICCV Workshop! In addition, we provide the <a href='https://huggingface.co/datasets/FangSen9000/How2Sign-dwpose-original-npz/tree/main'>Original DWPose keypoint npz</a> file for your use!
 [2025.05.24] We have recently developed a tool named <a href='https://github.com/FangSen9000/fast_dwpose'>fast_dwpose</a> for minimizing the extraction and visualization of DW Pose, and we hope it will be helpful to everyone.
 [2025.04.18] Surprise: We have released How2Sign <a href='https://huggingface.co/datasets/FangSen9000/How2Sign-dwpose/tree/main'>new compressed data</a> based on <a href='https://github.com/IDEA-Research/DWPose'>DWPose</a>, and an upgraded version of the SignLLM-based application will be launched strongly in the future.<br>
 [2025.04.01] **IMPORTANT:** We will try to provide a new compression solution (maybe based DWpose) at some point. Therefore, for unreleased preprocessed data and for existing data processing, the best approach is to download the original dataset and then process it using our processing tools.<br>
