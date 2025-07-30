@@ -1,6 +1,6 @@
 # Usage
 
-cd Prompt2Sign/tools-new-2025/main
+cd `Prompt2Sign/tools-new-2025/main`
 
 ## Env
 
