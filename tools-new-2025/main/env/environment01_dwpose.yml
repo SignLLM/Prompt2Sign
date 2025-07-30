@@ -1,0 +1,13 @@
+name: dwpose
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - defaults
+  - bioconda
+  - anaconda
+dependencies:
+  - python=3.10
+  - av
+  - numpy
+  - einops
