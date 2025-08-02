@@ -1,0 +1,5 @@
+easy_dwpose==1.0.1
+ffmpeg
+torch
+torchvision
+einops
