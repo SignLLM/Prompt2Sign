@@ -19,6 +19,12 @@ This repository stores the preprocessed data for the paper:
 [2023.12.14] We have made supplementary materials and demo available at this page.<br>
 [2023.11.04] We have made Prompt2Sign and Tools available at GitHub. Check out <a href='https://github.com/SignLLM/Prompt2Sign'>here</a>.<br>
 
+## Contact
+
+For further questions and suggestions, please only contact <a href='mailto:sen.fang@rutgers.edu'>Sen Fang</a> or <a href='mailto:signllm@googlegroups.com'>SignLLM</a>.
+
+If there are any commercial collaborations, funding arrangements, or sign language cooperation projects, please send the email to Sen's <a href='mailto:dnm@cs.rutgers.edu'>current advisor</a> to discuss the details (and cc Sen).
+
 ## Dataset Introduction
 
 **Prompt2Sign** is first comprehensive multilingual sign language dataset, which uses tools to automate the acquisition and processing of sign language videos on the web, is an evolving data set that is efficient, lightweight, reducing the previous shortcomings. 
@@ -117,3 +123,4 @@ Begin by reviewing our terms at [Prompt2Sign Data Agreement](). Once accepted, y
 **Browse and Select Datasets**  
 Explore our repositories for SignLLM and [SignDiff](https://arxiv.org/abs/2308.16082) to understand the scope and details of the available data.
 -->
+
